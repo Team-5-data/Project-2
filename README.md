@@ -17,6 +17,6 @@ Key Features
 - Business-focused KPIs: ADR (Average Daily Rate), RevPAR.
 
 Team Collaboration
-This project is developed jointly by a 5-member team. Each contributor focuses on a specific module (EDA, feature engineering, modeling, visualization, business insights) and integrates work through Git version control for seamless collaboration.
+This project is developed jointly by a 4 member team. Each contributor focuses on a specific module (EDA, feature engineering, modeling, visualization, business insights) and integrates work through Git version control for seamless collaboration.
 
 
