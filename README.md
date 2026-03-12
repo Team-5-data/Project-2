@@ -1,2 +1,2 @@
 # Project-2
-Collaborative project using Kaggle dataset to explore cancellation drivers, seasonal demand, and pricing elasticity. Includes EDA, predictive modeling, and business insights to optimize RevPAR and reduce churn in hospitality.
+This repository contains a collaborative project focused on the travel and hospitality sector, where revenue leakage often occurs due to unoptimized pricing and unpredictable customer cancellations. Using the Hotel Booking Demand Dataset (Kaggle), our team performs Exploratory Data Analysis (EDA) and builds predictive models to uncover the primary drivers of cancellations (churn) and explore seasonal demand trends.
