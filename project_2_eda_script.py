@@ -128,18 +128,18 @@ for i in df.columns:
 
 # Outlier Removal ADR
     # Quantile 1 and Quantile 3
-  Q1= df["adr"].quantile(0.25)
-  Q3= df["adr"].quantile(0.75)
+Q1= df["adr"].quantile(0.25)
+Q3= df["adr"].quantile(0.75)
 
     # Interquantile Range
-  IQR = Q3-Q1
+IQR = Q3-Q1
 
     # Upper and Lower fench value
-  Upper = Q3 + 1.5 * IQR
-  Lower = Q1 - 1.5 * IQR
+Upper = Q3 + 1.5 * IQR
+Lower = Q1 - 1.5 * IQR
     
     # filtering and putting back outlier removed value
-  df = df[(df["adr"]>=Lower) & (df["adr"]<=Upper)]
+df = df[(df["adr"]>=Lower) & (df["adr"]<=Upper)]
     
 
 
